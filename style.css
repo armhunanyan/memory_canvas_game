@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #2ecc71;
+}
+.app-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 5px 0;
+    border: 2px solid white;
+    font-weight: bold;
+    user-select: none;
+}
+#app{
+    border: 2px solid white;
+}
